@@ -1,6 +1,6 @@
 {
-  "name-web":"STACKOVERFLOW MASKODING",
-  "author":"MASKODING",
+  "name-web":"BERITA TERKINI",
+  "author":"BERITA",
   "remove-comment-html":true,
   "target":"https://m.tribunnews.com",
   "name-folder-sitemap":"sitemap",
@@ -20,14 +20,14 @@
   ],
   "costom-element-remove":[
     {
-      "target":"stackoverflow.com",
+      "target":"m.tribunnews.com",
       "element-remove-selector":[
         ".js-dismissable-hero",
         ".lazy-loading"
       ],
       "replace-string":[
         {
-          "target":"https://stackoverflow.com",
+          "target":"https://m.tribunnews.com",
           "replace":"${nameWeb}"
         }
       ]
@@ -73,7 +73,7 @@
       "name-element":"meta",
       "data-attribute":[
         {
-          "name-attribute":"name",
+         "name-attribute":"name",
           "value-attribute":"google-site-verification"
         },
         {
